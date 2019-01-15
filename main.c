@@ -69,7 +69,9 @@ int main()
 
         }
         if(code == 5){
-           
+           printf("tuichuxitong\n");
+            break;
+
         }
 
     }
