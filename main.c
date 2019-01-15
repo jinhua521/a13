@@ -48,7 +48,25 @@ int main()
 
         }
         if(code == 4){
-            
+            printf("qingshuruyiduanyingwen:\n");
+            char nerirong[1024];
+
+            scanf("%s",nerirong);
+            for(int i = 0;1;i++){
+                if(nerirong[i] == '\0'){
+                    break;
+                }
+                if(isMingan(arr[i]) == 1){
+                    nerirong[i] = '*';
+                }
+                printf("%c",nerirong[i]);
+            }
+            printf("\n");
+            printf("tihuanwancheng,dianjihuichejixu\n");
+            char x;
+            scanf("%c",&x);
+            scanf("%c",&x);
+
         }
         if(code == 5){
            
