@@ -1,3 +1,6 @@
+#include<stdio.h>
+char arr[1024];
+int index = 0;
 int main()
 {
     printf("minganzifuguanlixitong\n");
@@ -19,7 +22,7 @@ int main()
             char m;
             scanf("%c",&m);
             scanf("%c",&m);
-            arr[index] = m;
+            arr[index]=m;
             index++;
             printf("tianjiachenggong,dianjihuichejixu\n");
             char x;
@@ -38,7 +41,7 @@ int main()
         }
         if(code == 3){
            printf("suoyouminganzifuruxia:\n");
-            for (int i = 0; i < index;i++){
+            for (int i = 0; i <index;i++){
                 printf("di%dgeminganzifuwei%c\n", i + 1, arr[i]);
             }
             printf("shanchuchenggong,dianjihuichejixu\n");
